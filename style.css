@@ -33,6 +33,7 @@ header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .app-name {
@@ -61,10 +62,11 @@ section:last-child {
 
 h2 {
     color: #667eea;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 2px solid #667eea;
+    font-weight: 600;
 }
 
 h3 {
@@ -77,6 +79,27 @@ h3 {
 p {
     margin-bottom: 15px;
     text-align: justify;
+    color: #4a5568;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+ol li {
+    margin-bottom: 12px;
+    line-height: 1.7;
 }
 
 ul {
@@ -87,6 +110,20 @@ ul {
 li {
     margin-bottom: 8px;
     line-height: 1.7;
+}
+
+.warning-box {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.warning-box p {
+    margin-bottom: 0;
+    color: #856404;
+    font-weight: 500;
 }
 
 strong {
